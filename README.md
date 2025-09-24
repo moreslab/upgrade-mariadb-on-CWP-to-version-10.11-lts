@@ -10,16 +10,15 @@ This method will perform all the actions ensuring all checks and upgrades are do
 
 Copy the Installation script below and run it.
 
+bash <(curl -s https://raw.githubusercontent.com/moreslab/upgrade-mariadb-on-CWP-to-version-10.11-lts/refs/heads/main/cwpdb-upgrade.sh || wget -qO- https://raw.githubusercontent.com/moreslab/upgrade-mariadb-on-CWP-to-version-10.11-lts/refs/heads/main/cwpdb-upgrade.sh)
+
 bash <(curl -s https://gitlab.com/dannydev77/cwpdb-upgrade/-/raw/main/cwpdb-upgrade.sh || wget -qO- https://gitlab.com/dannydev77/cwpdb-upgrade/-/raw/main/cwpdb-upgrade.sh)
 
 Running the Script.
 
-
 Upgrade script complete.
 
-
 Confirm status after Upgrade.
-
 
 Method 2: Manual – Follow the steps below.
 In this part, upgrade is being done from version 10.4 to 10.6
